@@ -277,3 +277,15 @@ img {
     width: 200px;
     border-color: #3882f6;
 }
+
+.footer {
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footext {
+    color: white;
+    font-size: 18px;
+}

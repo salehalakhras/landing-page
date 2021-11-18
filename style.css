@@ -12,6 +12,7 @@
 *{
     font-family: 'Roboto';
     background-color: #1f2937;
+    text-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.342);
     }
 .page1{
     min-width: 1000px;
@@ -99,6 +100,51 @@ a{
 .mainImg{
     width: 60vh;
     }
-img{
+.bigimg{
     width: 60vh;
+}
+.container2{
+    height: 60vh;
+    padding: 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.con2maintext{
+    background-color: white;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.charscon{
+    height: 500px;
+    width: 1500px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+.chars{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    border: 4px solid; 
+    border-color: #3882f6;
+}
+.chartext{
+    background-color: white;
+    text-align: center;
+    font-size: 18px;
+}
+img{
+    height: 300px;
+    width: 300px;
 }

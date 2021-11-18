@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto');
+/*
+* { outline: 2px dotted red }
+* * { outline: 2px dotted green }
+* * * { outline: 2px dotted orange }
+* * * * { outline: 2px dotted blue }
+* * * * * { outline: 1px solid red }
+* * * * * * { outline: 1px solid green }
+* * * * * * * { outline: 1px solid orange }
+* * * * * * * * { outline: 1px solid blue }
+*/
 *{
     font-family: 'Roboto';
     background-color: #1f2937;
-
     }
 .page1{
     min-width: 1000px;
@@ -20,7 +29,7 @@
 }
 
 .logo{
-    font-size: 26px;
+    font-size: 24px;
     font-weight: bolder;
     color: #f9faf8;
 }
@@ -41,10 +50,10 @@ a{
 }
 
 .container1{
+    height: 50vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-shrink: 0;
     background-color: #1f2937;
     margin-left: 10vh;
     margin-right: 10vh;
@@ -53,7 +62,7 @@ a{
     padding-right: 0vh;
 }
 .mainText{
-    font-size: 36px;
+    font-size: 50px;
     font-weight: bolder;
     color: #f9faf8;
     padding: 12px;
@@ -69,21 +78,27 @@ a{
     padding: 12px;
     width: 500px;
 }
-button{
+.button.sign{
+    border: 0;
     background-color: #3882f6;
     color: #e5e7eb;
     width: 100px;
     height: 30px;
     border-radius: 10px;
     padding-right: 10px;
-    align-self: center;
     font-size: 18px;
     font-weight: bold;
     text-align: center;
 }
+.button:hover{
+    filter: brightness(.9);
+}
+.button:active{
+    transform: translateY(4px);
+}
 .mainImg{
-    width: 400px;
+    width: 60vh;
     }
 img{
-    width: 400px;
+    width: 60vh;
 }
